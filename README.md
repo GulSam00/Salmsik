@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="public/images/main_header_cha.png"  height="150" width="150"/>
 
-Currently, two official plugins are available:
+# Salmsik
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 프로젝트 소개
 
-## Expanding the ESLint configuration
+상식이 부족하다고 느끼는 현대인들에게 퀴즈를 통해 상식을 채워주는 서비스를 제공합니다. </br>
+백엔드 개발자와 Swagger, 디자이너와 figma를 통해 협업했습니다.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 기술 스택
 
-- Configure the top-level `parserOptions` property like this:
+<div>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<img src="https://img.shields.io/badge/vite-123142?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/tailwind-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
+</div>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<div>
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/react query-234152?style=flat-square&logo=react-query&logoColor=white"/>
+<img src="https://img.shields.io/badge/redux-223415?style=flat-square&logo=redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/MSW-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+
+</div>
+
+# 배포주소
+<div align="center">
+
+[Salmsik](https://salmsik-frontend.vercel.app/)
+</div>
+
+
+# 주요 기능
+
+## react-query를 활용한 REST API 기능 구현
+
+## MSW를 활용한 API 모킹 환경 구축
+
+</div>
+
