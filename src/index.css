@@ -1,0 +1,38 @@
+@import "./reset.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pretendard Variable';
+    font-weight: 400 600;
+    font-style: normal;
+    font-display: swap;
+    src: local('Pretendard Variable'), url('/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'), url('/fonts/Pretendard-SemiBold.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Pretendard Medium'), url('/fonts/Pretendard-Medium.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'), url('/fonts/Pretendard-Regular.subset.woff') format('woff');
+}
+
+* {
+    font-family: 'Pretendard Variable', 'Pretendard', sans-serif;;
+}
